@@ -12,12 +12,12 @@ const input = fs.readFileSync(filePath).toString().trim();
 // 187 - 66666
 
 //브루트포스 문제(완전 탐색 알고리즘)
-num = 666;
-n = 1;
-while(parseInt(input) != n){
-    num++;
-    if(String(num).includes("666")){
-        n++;
+number = 666;
+count = 1;
+while(count != parseInt(input)){
+    number++;
+    if(String(number).includes("666")){
+        count++;
     }
 }
-console.log(num);
+console.log(number);
