@@ -4,7 +4,7 @@ let input = fs.readFileSync(filePath).toString().trim().split('\n');
 
 const n = input.shift();
 
-//좌표를 배열에 저장
+//좌표를 배열에 저장, 2차원 배열
 input =  input.map((i) => i.split(" ").map((j) => Number(j)));
 let answer = "";
 
